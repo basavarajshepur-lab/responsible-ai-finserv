@@ -1,0 +1,17 @@
+[project]
+name = "responsible-ai-finserv"
+version = "1.0.0"
+description = "Production responsible AI controls for financial services — ConfidenceGate, AuditChain, HITLQueue, DriftMonitor, ExplainabilityWrapper"
+readme = "README.md"
+license = { text = "MIT" }
+requires-python = ">=3.11"
+dependencies = [
+    "anthropic>=0.40.0",
+    "streamlit>=1.40.0",
+    "pydantic>=2.0.0",
+    "python-dotenv>=1.0.0",
+    "pandas>=2.0.0",
+]
+
+[project.urls]
+Repository = "https://github.com/basavarajshepur-lab/responsible-ai-finserv"
