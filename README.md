@@ -18,7 +18,7 @@ The problem is answering five questions:
 4. *"How do you know it's still working?"*
 5. *"Why did it decide that?"*
 
-This library is the engineering answer to all five. It's the pattern extracted from building AI classification pipelines at Deutsche Bank CDO across 450+ production models, where every deployment had to pass the same governance questions.
+This library is the engineering answer to all five. It's the pattern extracted from building AI classification pipelines across 450+ production models in financial services, where every deployment had to pass the same governance questions.
 
 ---
 
@@ -269,7 +269,7 @@ The AuditChain sees every decision — automated and human alike. This is what m
 
 ## Background
 
-Built by [Basavaraj Shepur](https://linkedin.com/in/basavarajshepur) — Senior AI Product Manager with 19 years in financial services. Former Senior Product Owner at Deutsche Bank CDO, where AI classification pipelines handling 450+ production models were deployed with exactly these governance controls. Every control in this library was designed in response to a real governance challenge: a CCO objection, a model risk committee question, or an FCA examiner's request.
+Built by [Basavaraj Shepur](https://linkedin.com/in/basavarajshepur) — Senior AI Product Manager with 19 years in financial services. Every control in this library was designed in response to a real governance challenge: a CCO objection, a model risk committee question, or an FCA examiner's request.
 
 Read the full framework: [docs/pm-guide-responsible-ai.md](docs/pm-guide-responsible-ai.md)
 

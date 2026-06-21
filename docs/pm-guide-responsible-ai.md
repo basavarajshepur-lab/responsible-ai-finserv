@@ -27,7 +27,7 @@ What it answers:
 - SR 11-7 Section 4: "What are the model's operating conditions?"
 - Your CCO's question: "What stops it from acting on a wrong answer?"
 
-**In practice at Deutsche Bank:** Every AI classification in the CDO data platform had a confidence threshold. Outputs below 85% triggered a HITL review flag before any downstream pipeline consumed the result. This single control resolved 60% of governance objections.
+**In practice:** Every AI classification in a production financial services data platform had a confidence threshold. Outputs below 85% triggered a HITL review flag before any downstream pipeline consumed the result. This single control resolved 60% of governance objections.
 
 ---
 
@@ -157,4 +157,4 @@ If you can check all ten boxes, you have a defensible responsible AI posture for
 
 ---
 
-*Built from the Deutsche Bank CDO responsible AI framework (2023-2025), where this pattern was deployed across AI/data classification pipelines handling 450+ production models.*
+*Built from a production responsible AI framework deployed across AI/data classification pipelines handling 450+ models in financial services.*

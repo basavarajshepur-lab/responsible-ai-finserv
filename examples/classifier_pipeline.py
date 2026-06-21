@@ -8,8 +8,8 @@ What this demonstrates:
   - AuditChain: every decision is logged before the analyst sees it
   - DriftMonitor: output distribution tracked for behavioural shift alerts
 
-This is the pattern used in production at Deutsche Bank for AI classification
-pipelines: confidence scoring + audit chain + HITL gates + drift monitoring.
+This is the pattern used in production for AI classification pipelines
+in financial services: confidence scoring + audit chain + HITL gates + drift monitoring.
 The library makes it drop-in for any new pipeline.
 """
 

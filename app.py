@@ -8,13 +8,13 @@ import sys
 from pathlib import Path
 sys.path.insert(0, str(Path(__file__).parent))
 
-import streamlit as st
 from dotenv import load_dotenv
+load_dotenv()
+
+import streamlit as st
 from rai_finserv import ConfidenceGate, AuditChain, HITLQueue, DriftMonitor, ExplainabilityWrapper
 from examples.sample_documents import SAMPLE_DOCUMENTS, DOCUMENT_LABELS
 from examples.classifier_pipeline import classify_document, print_drift_report, DB_PATH, PIPELINE_ID
-
-load_dotenv()
 
 st.set_page_config(page_title="Responsible AI FinServ", page_icon="🏦", layout="wide")
 st.title("Responsible AI FinServ")
