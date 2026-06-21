@@ -46,7 +46,7 @@ cd responsible-ai-finserv
 pip install -r requirements.txt
 cp .env.example .env
 # Add your ANTHROPIC_API_KEY
-streamlit run app.py                            # interactive demo
+streamlit run app.py    if this doesn't work then run python -m streamlit run app.py   # interactive demo
 python -m examples.classifier_pipeline         # CLI: classify 5 sample documents
 ```
 
