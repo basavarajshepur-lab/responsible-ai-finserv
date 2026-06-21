@@ -226,6 +226,6 @@ with tab5:
     st.header("PM Guide to Responsible AI")
     guide_path = Path(__file__).parent / "docs" / "pm-guide-responsible-ai.md"
     if guide_path.exists():
-        st.markdown(guide_path.read_text())
+        st.markdown(guide_path.read_text(encoding="utf-8"))
     else:
         st.info("Guide not found. Check docs/pm-guide-responsible-ai.md")
