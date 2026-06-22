@@ -1,6 +1,6 @@
 # responsible-ai-finserv
 
-**Production responsible AI controls for financial services.** Five composable Python components that answer the five questions every CCO, CRO, and regulator will ask about your AI system.
+**Production responsible AI controls for financial services.** Five composable Python components that answer the five questions every Chief Compliance Office (CCO), Chief Risk Oiffice(CRO), and regulator will ask about your AI system.
 
 ![Python](https://img.shields.io/badge/Python-3.11+-blue) ![License](https://img.shields.io/badge/License-MIT-green) ![Status](https://img.shields.io/badge/Status-Production--Ready-brightgreen) ![Claude](https://img.shields.io/badge/Powered%20by-Claude%20AI-orange)
 
